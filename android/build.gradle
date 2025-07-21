@@ -25,6 +25,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
+    namespace = "com.tencent.cloud.chat.flutter.image_clipboard"
     compileSdkVersion 31
 
     compileOptions {
